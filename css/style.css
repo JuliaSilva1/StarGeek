@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fundo.jpg);
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(8, 70, 124, 0.727);
+    text-align: left;
+    max-width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 3px;
+    padding: 5px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+a {
+    background-color: black;
+    border: 1px solid rgb(7, 0, 0);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.427);
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px rgba(4, 11, 140, 0.986);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Edu NSW ACT Foundation', cursiva;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao>img {
+    width: 30px;
+}
+
+.voltar {
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.voltar:hover {
+    background-color: white;
+    color: black;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+ul {
+    display: flex;
+}
+li{
+    list-style: none;
+}
+
+.logo {
+    width: 60px;
+}
+
+.botao2>li>a {
+    color: yellow;
+    background-color: rgba(15, 117, 200, 0.462);
+    text-decoration: none;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.fundo{
+    background-image: url(../img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.427);
+}
+
+.botao3 {
+    color: yellow;
+    background-color: rgba(15, 117, 200, 0.523);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid rgba(0, 149, 255, 0.829);
+    box-shadow: 2px 2px 4px rgba(6, 141, 225, 0.681);
+    max-width: 500px;
+    width: 400px;
+}
+
+.botao3 > ::placeholder {
+    color: yellow;
+}
+
+h2 {
+   font-family: URW Chancery L, cursive;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.botao4{
+    background-color: rgba(0, 0, 0, 0.825);
+    border: 2px solid rgba(0, 153, 255, 0.308);
+    border-radius: 10px;
+    padding: 7px ;
+    width: 40px;
+    margin-top:2px ;
+    margin-left: -40px;
+}
+.botao4:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+} 
+
+main{
+    background-color: rgb(5, 48, 123);
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+hr{
+    background: rgb(0,151,255);
+    background: linear-gradient(90deg, rgba(0,151,255,0) 0%, rgba(0,125,255,0.8996848739495799) 50%, rgba(0,138,255,0) 100%);
+    border: 0;
+    height: 5px;
+  }
+main > img{
+    width: 400px;
+    padding: 20px;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+.capa{
+    max-width: 1320px;
+    margin: 0 auto  ;
+    display: flex;
+    padding: 10px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+.final{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botoes{
+    border:2px solid rgba(17, 91, 211, 0.796);
+    background-color: rgba(0, 106, 255, 0.329);
+    width: 50%;
+    padding: 5px;
+}
+.botoes:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+} 
