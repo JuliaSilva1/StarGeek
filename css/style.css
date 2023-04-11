@@ -24,7 +24,7 @@ body {
     border-radius: 5px;
 }
 
-a {
+.primeiro{
     background-color: black;
     border: 1px solid rgb(7, 0, 0);
     color: white;
@@ -36,7 +36,7 @@ a {
 
 }
 
-a:hover {
+.primeiro:hover {
     background-color: white;
     color: black;
 }
@@ -76,6 +76,9 @@ h2 {
     color: white;
     margin-left: 5px;
     margin-right: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 6px;
 }
 
 .voltar:hover {
@@ -93,6 +96,7 @@ h2 {
 
 ul {
     display: flex;
+    align-items: center;
 }
 li{
     list-style: none;
@@ -137,7 +141,7 @@ li{
     width: 400px;
 }
 
-.botao3 > ::placeholder {
+.botao3::placeholder {
     color: yellow;
 }
 
@@ -161,13 +165,15 @@ h2 {
     width: 40px;
     margin-top:2px ;
     margin-left: -40px;
+    text-decoration: none;
+    color:white;
 }
 .botao4:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 } 
 
-main{
+.inicio{
     background-color: rgb(5, 48, 123);
     justify-content: space-between;
     padding-left: 10px;
@@ -175,11 +181,11 @@ main{
 }
 hr{
     background: rgb(0,151,255);
-    background: linear-gradient(90deg, rgba(0,151,255,0) 0%, rgba(0,125,255,0.8996848739495799) 50%, rgba(0,138,255,0) 100%);
+    background: linear-gradient(90deg, rgba(0,151,255,0) 6%, rgba(0,125,255,0.8996848739495799) 50%, rgba(0,138,255,0) 92%);
     border: 0;
     height: 5px;
   }
-main > img{
+.inicio > img{
     width: 400px;
     padding: 20px;
 }
@@ -214,8 +220,273 @@ p{
     background-color: rgba(0, 106, 255, 0.329);
     width: 50%;
     padding: 5px;
+    margin: 9px;
+    text-decoration: none;
+    color: white;
 }
 .botoes:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 } 
+.fundo2{
+    background-image: url(../img/tela\ de\ cinema.avif);
+    background-size:cover ;
+    background-color: rgba(0, 0, 0, 0.427);
+}
+.botao5{
+   padding: 5px;
+   border-radius: 0;
+   margin: 6px;
+   margin-top: 3px;
+   display: flex;
+   justify-content: left;
+   text-decoration: none;
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.botao6{
+    border-bottom: 2px solid white;
+}
+.filmes{
+    display: flex;
+    gap: 10px ;
+    overflow: scroll; 
+    height: 180px;
+}
+.filmes::-webkit-scrollbar{
+    display: none;
+}
+
+.filme{
+    width: 285px;
+    margin: 3px;    
+    transition: all 1s;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px black;
+
+}
+.cabecalho2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+}
+.cabecalho2 > div {
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    width: 20px;
+}
+.m1{
+    background-color: none;
+}
+h3{
+    color: white;
+    margin: 10px;
+    padding: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sair{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    background-color: rgba(23, 119, 245, 0.773);
+    color: white;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+.hotel:hover{
+    content: url(../img/hotel.gif);
+    transform: scale(1.1);
+    
+}
+.minios:hover{
+    content: url(../img/minions.gif);
+    transform: scale(1.1);
+}
+.bob:hover{
+    content: url(../img/bob.gif);
+    transform: scale(1.1);
+}
+.moana:hover{
+    content: url(../img/moana.gif);
+    transform: scale(1.1);
+}
+.enrolados:hover{
+    content: url(../img/enrolados.gif);
+    transform: scale(1.1);
+    height: 100%;
+}
+.sing2:hover{
+    content: url(../img/sing2.gif);
+    transform: scale(1.1);
+}
+.o-bicho:hover{
+    content: url(../img/o-bicho.gif);
+    transform: scale(1.1);
+}
+.deuses:hover{
+    content: url(../img/deuses-do-egito.gif);
+    transform: scale(1.1);
+}
+.mr-bean:hover{
+    content: url(../img/mr-bean.gif);
+    transform: scale(1.1);
+}
+.branquelas:hover{
+    content: url(../img/branquelas.gif);
+    transform: scale(1.1);
+}
+.velozes:hover{
+    content: url(../img/velozes.gif);
+    transform: scale(1.1);
+}
+.forrest:hover{
+    content: url(../img/forrest-gump.gif);
+    transform: scale(1.1);
+}
+.piratas:hover{
+    content: url(../img/piratas.gif);
+    transform: scale(1.1);
+}
+.menino:hover{
+    content: url(../img/o-menino.gif);
+    transform: scale(1.1);
+}
+.brilhante:hover{
+    content: url(../img/brilhante.gif);
+    transform: scale(1.1);
+}
+.drack:hover{
+    content: url(../img/drake-josh.gif);
+    transform: scale(1.1);
+}
+.icarly:hover{
+    content: url(../img/icarly.gif);
+    transform: scale(1.1);
+}
+.game:hover{
+    content: url(../img/game.gif);
+    transform: scale(1.1);
+}
+.sam:hover{
+    content: url(../img/sam-e-cat.gif);
+    transform: scale(1.1);
+}
+.scooby:hover{
+    content: url(../img/scooby.gif);
+    transform: scale(1.1);
+}
+.kenan:hover{
+    content: url(../img/kenan-e-kel.gif);
+    transform: scale(1.1);
+}
+.pets:hover{
+    content: url(../img/pets.gif);
+    transform: scale(1.1);
+}
+.aladdin:hover{
+    content: url(../img/aladdin.gif);
+    transform: scale(1.1);
+}
+.batman:hover{
+    content: url(../img/batman.gif);
+    transform: scale(1.1);
+}
+.pinguins:hover{
+    content: url(../img/pinguins.gif);
+    transform: scale(1.1);
+}
+.you:hover{
+    content: url(../img/you.gif);
+    transform: scale(1.1);
+}
+.mundo:hover{
+    content: url(../img/mundo.gif);
+    transform: scale(1.1);
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+.icons > p > img{
+    width: 30px;  
+}
+.icons{
+    text-align: center;
+}
+/* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #06c6e8;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.generos{
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.generos > a {
+    background-color:transparent;
+    width: 10%;
+}
+.pesquisar2{
+    width: 500px;
+    height: 35px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.427);
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px rgba(2, 9, 124, 0.986);
+    margin: 10px;
+}
