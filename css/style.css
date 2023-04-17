@@ -24,7 +24,7 @@ body {
     border-radius: 5px;
 }
 
-.primeiro{
+.primeiro {
     background-color: black;
     border: 1px solid rgb(7, 0, 0);
     color: white;
@@ -98,7 +98,8 @@ ul {
     display: flex;
     align-items: center;
 }
-li{
+
+li {
     list-style: none;
 }
 
@@ -119,7 +120,7 @@ li{
     padding: 10px;
 }
 
-.fundo{
+.fundo {
     background-image: url(../img/fundo2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -146,9 +147,10 @@ li{
 }
 
 h2 {
-   font-family: URW Chancery L, cursive;
+    font-family: URW Chancery L, cursive;
 }
-.banner{
+
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,51 +159,59 @@ h2 {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.botao4{
+
+.botao4 {
     background-color: rgba(0, 0, 0, 0.825);
     border: 2px solid rgba(0, 153, 255, 0.308);
     border-radius: 10px;
-    padding: 7px ;
+    padding: 7px;
     width: 40px;
-    margin-top:2px ;
+    margin-top: 2px;
     margin-left: -40px;
     text-decoration: none;
-    color:white;
+    color: white;
 }
+
 .botao4:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-} 
+}
 
-.inicio{
+.inicio {
     background-color: rgb(5, 48, 123);
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
 }
-hr{
-    background: rgb(0,151,255);
-    background: linear-gradient(90deg, rgba(0,151,255,0) 6%, rgba(0,125,255,0.8996848739495799) 50%, rgba(0,138,255,0) 92%);
+
+hr {
+    background: rgb(0, 151, 255);
+    background: linear-gradient(90deg, rgba(0, 151, 255, 0) 6%, rgba(0, 125, 255, 0.8996848739495799) 50%, rgba(0, 138, 255, 0) 92%);
     border: 0;
     height: 5px;
-  }
-.inicio > img{
+}
+
+.inicio>img {
     width: 400px;
     padding: 20px;
 }
-h2{
+
+h2 {
     color: white;
 }
-p{
+
+p {
     color: white;
 }
-.capa{
+
+.capa {
     max-width: 1320px;
-    margin: 0 auto  ;
+    margin: 0 auto;
     display: flex;
     padding: 10px;
 }
-.texto{
+
+.texto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,14 +219,16 @@ p{
     padding: 20px;
     margin: 10px;
 }
-.final{
+
+.final {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.botoes{
-    border:2px solid rgba(17, 91, 211, 0.796);
+
+.botoes {
+    border: 2px solid rgba(17, 91, 211, 0.796);
     background-color: rgba(0, 106, 255, 0.329);
     width: 50%;
     padding: 5px;
@@ -224,48 +236,56 @@ p{
     text-decoration: none;
     color: white;
 }
+
 .botoes:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-} 
-.fundo2{
+}
+
+.fundo2 {
     background-image: url(../img/tela\ de\ cinema.avif);
-    background-size:cover ;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.427);
 }
-.botao5{
-   padding: 5px;
-   border-radius: 0;
-   margin: 6px;
-   margin-top: 3px;
-   display: flex;
-   justify-content: left;
-   text-decoration: none;
-   color: white;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+
+.botao5 {
+    padding: 5px;
+    border-radius: 0;
+    margin: 6px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.botao6{
+
+.botao6 {
     border-bottom: 2px solid white;
 }
-.filmes{
+
+.filmes {
     display: flex;
-    gap: 10px ;
-    overflow: scroll; 
+    gap: 10px;
+    overflow: scroll;
     height: 180px;
 }
-.filmes::-webkit-scrollbar{
+
+.filmes::-webkit-scrollbar {
     display: none;
 }
 
-.filme{
+.filme {
     width: 285px;
-    margin: 3px;    
+    height: 150px;
+    margin: 3px;
     transition: all 1s;
     border-radius: 10px;
     box-shadow: 3px 3px 2px black;
 
 }
-.cabecalho2{
+
+.cabecalho2 {
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -273,154 +293,197 @@ p{
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
 }
-.cabecalho2 > div {
+
+.cabecalho2>div {
     display: flex;
     gap: 20px;
 }
-.icon{
+
+.icon {
     width: 20px;
+    text-align: center;
 }
-.m1{
+
+.m1 {
     background-color: none;
 }
-h3{
+
+h3 {
     color: white;
     margin: 10px;
     padding: 7px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.sair{
-    display: flex;
-    justify-content: space-between;
+
+.sair {
+
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
-    background-color: rgba(23, 119, 245, 0.773);
+    background-color: rgb(25, 91, 165);
     color: white;
     border-radius: 5px;
     font-family: fantasy;
+    margin: 5px;
 }
-.hotel:hover{
+
+.posicao-botao {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.hotel:hover {
     content: url(../img/hotel.gif);
     transform: scale(1.1);
-    
+
 }
-.minios:hover{
+
+.minios:hover {
     content: url(../img/minions.gif);
     transform: scale(1.1);
 }
-.bob:hover{
+
+.bob:hover {
     content: url(../img/bob.gif);
     transform: scale(1.1);
 }
-.moana:hover{
+
+.moana:hover {
     content: url(../img/moana.gif);
     transform: scale(1.1);
 }
-.enrolados:hover{
+
+.enrolados:hover {
     content: url(../img/enrolados.gif);
     transform: scale(1.1);
     height: 100%;
 }
-.sing2:hover{
+
+.sing2:hover {
     content: url(../img/sing2.gif);
     transform: scale(1.1);
 }
-.o-bicho:hover{
+
+.o-bicho:hover {
     content: url(../img/o-bicho.gif);
     transform: scale(1.1);
 }
-.deuses:hover{
+
+.deuses:hover {
     content: url(../img/deuses-do-egito.gif);
     transform: scale(1.1);
 }
-.mr-bean:hover{
+
+.mr-bean:hover {
     content: url(../img/mr-bean.gif);
     transform: scale(1.1);
 }
-.branquelas:hover{
+
+.branquelas:hover {
     content: url(../img/branquelas.gif);
     transform: scale(1.1);
 }
-.velozes:hover{
+
+.velozes:hover {
     content: url(../img/velozes.gif);
     transform: scale(1.1);
 }
-.forrest:hover{
+
+.forrest:hover {
     content: url(../img/forrest-gump.gif);
     transform: scale(1.1);
 }
-.piratas:hover{
+
+.piratas:hover {
     content: url(../img/piratas.gif);
     transform: scale(1.1);
 }
-.menino:hover{
+
+.menino:hover {
     content: url(../img/o-menino.gif);
     transform: scale(1.1);
 }
-.brilhante:hover{
+
+.brilhante:hover {
     content: url(../img/brilhante.gif);
     transform: scale(1.1);
 }
-.drack:hover{
+
+.drack:hover {
     content: url(../img/drake-josh.gif);
     transform: scale(1.1);
 }
-.icarly:hover{
+
+.icarly:hover {
     content: url(../img/icarly.gif);
     transform: scale(1.1);
 }
-.game:hover{
+
+.game:hover {
     content: url(../img/game.gif);
     transform: scale(1.1);
 }
-.sam:hover{
+
+.sam:hover {
     content: url(../img/sam-e-cat.gif);
     transform: scale(1.1);
 }
-.scooby:hover{
+
+.scooby:hover {
     content: url(../img/scooby.gif);
     transform: scale(1.1);
 }
-.kenan:hover{
+
+.kenan:hover {
     content: url(../img/kenan-e-kel.gif);
     transform: scale(1.1);
 }
-.pets:hover{
+
+.pets:hover {
     content: url(../img/pets.gif);
     transform: scale(1.1);
 }
-.aladdin:hover{
+
+.aladdin:hover {
     content: url(../img/aladdin.gif);
     transform: scale(1.1);
 }
-.batman:hover{
+
+.batman:hover {
     content: url(../img/batman.gif);
     transform: scale(1.1);
 }
-.pinguins:hover{
+
+.pinguins:hover {
     content: url(../img/pinguins.gif);
     transform: scale(1.1);
 }
-.you:hover{
+
+.you:hover {
     content: url(../img/you.gif);
     transform: scale(1.1);
 }
-.mundo:hover{
+
+.mundo:hover {
     content: url(../img/mundo.gif);
     transform: scale(1.1);
 }
-footer{
+
+footer {
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 10px;
 }
-.icons > p > img{
-    width: 30px;  
+
+.icons>p>img {
+    width: 30px;
 }
-.icons{
+
+.icons {
     text-align: center;
 }
+
 /* === removing default button style ===*/
 .button {
     margin: 0;
@@ -428,12 +491,12 @@ footer{
     background: transparent;
     padding: 0;
     border: none;
-  }
-  
-  /* button styling */
-  .button {
+}
+
+/* button styling */
+.button {
     --border-right: 6px;
-    --text-stroke-color: rgba(255,255,255,0.6);
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
     --animation-color: #06c6e8;
     --fs-size: 2em;
     letter-spacing: 3px;
@@ -444,9 +507,10 @@ footer{
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 1px var(--text-stroke-color);
-  }
-  /* this is the text, when you hover on button */
-  .hover-text {
+}
+
+/* this is the text, when you hover on button */
+.hover-text {
     position: absolute;
     box-sizing: border-box;
     content: attr(data-text);
@@ -457,29 +521,34 @@ footer{
     overflow: hidden;
     transition: 0.5s;
     -webkit-text-stroke: 1px var(--animation-color);
-  }
-  /* hover */
-  .button:hover .hover-text {
+}
+
+/* hover */
+.button:hover .hover-text {
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
-  }
-.pesquisar{
+}
+
+.pesquisar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.generos{
+
+.generos {
     flex-direction: column;
     display: flex;
     justify-content: left;
     align-items: flex-start;
 }
-.generos > a {
-    background-color:transparent;
+
+.generos>a {
+    background-color: transparent;
     width: 10%;
 }
-.pesquisar2{
-    width: 500px;
+
+.pesquisar2 {
+    width: 50%;
     height: 35px;
     margin-top: 5px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.427);
@@ -489,4 +558,314 @@ footer{
     border-radius: 7px;
     box-shadow: 3px 3px 5px rgba(2, 9, 124, 0.986);
     margin: 10px;
+}
+
+.teste {
+    background: none;
+}
+
+.banner-filme {
+    background-image: url(../img/fundo-magadascar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.assistir {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.627);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.51);
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.assistir-pinguins {
+    background-color: rgb(25, 91, 165);
+}
+
+.banner-filme2 {
+    background-image: url(../img/batman.jpg);
+    background-color: rgba(0, 0, 0, 0.766);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 300px;
+}
+
+.banner-filme3 {
+    background-image: url(../img/brilhantejpg.jpg);
+    background-color: rgba(0, 0, 0, 0.766);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.logo-brilhante {
+    width: 50%;
+}
+
+.banner-escuro {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 300px;
+}
+
+
+
+.opcoes {
+    color: white;
+    padding: 7px;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.assistir2 {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.627);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.51);
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+
+.filmes-assistir {
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+    height: 250px;
+}
+
+.filmes-assistir::-webkit-scrollbar {
+    display: none;
+}
+
+.filme-assistir {
+    height: 160px;
+    margin: 3px;
+    transition: all 1s;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px black;
+
+}
+
+.video {
+    background: none;
+}
+
+.filmes>.filme>p {
+    text-align: center;
+}
+
+button {
+    position: relative;
+    padding: 12px 35px;
+    background: #f2f0efe8;
+    font-size: 17px;
+    font-weight: 500;
+    color: #181818;
+    border: 3px solid #e6e3e1ec;
+    border-radius: 8px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    margin: 10px;
+}
+
+.star-1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+.star-2 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-3 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-4 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-5 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-6 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all .8s ease;
+}
+
+button:hover {
+    background: transparent;
+    color: #FEC195;
+    box-shadow: 0 0 25px #fec1958c;
+}
+
+button:hover .star-1 {
+    position: absolute;
+    top: -80%;
+    left: -30%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-2 {
+    position: absolute;
+    top: -25%;
+    left: 10%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-3 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-4 {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 115%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-6 {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+.fil0 {
+    fill: #FFFDEF
+}
+
+.logo-pinguins {
+    width: 60%;
+}
+
+@media (max-width:500px) {
+    .capa {
+        flex-direction: column;
+    }
+    .banner{
+        height: 50%;
+    }
+    .capa > img {
+        width: 250px;
+    }
+    .botao3{
+        width: 200px;
+    }
+    .generos > a{
+        width: 20%;
+    }
+    .button{
+       --fs-size:1em
+    }
+}
+.perfil{
+    background: none;
+}
+.perfil{
+   background-image: url(../img/fundo-perfil.jpg);
+   background-size: cover;
+   background-color: rgba(0, 0, 0, 0.8);
+}
+.logo-perfil{
+    width: 5%;
+}
+.agnes{
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;  
+}
+.agnes1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:300px;
+    height: 200px;
+}
+.agnes1:hover{
+    transform: scale(1.1);
 }
