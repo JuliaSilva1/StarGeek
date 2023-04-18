@@ -616,6 +616,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
     padding-top: 300px;
 }
+
 .banner-escuro2 {
     position: absolute;
     top: 0px;
@@ -833,60 +834,72 @@ button:hover .star-6 {
     .capa {
         flex-direction: column;
     }
-    .banner{
+
+    .banner {
         height: 50%;
     }
-    .capa > img {
+
+    .capa>img {
         width: 250px;
     }
-    .botao3{
+
+    .botao3 {
         width: 200px;
     }
-    .generos > a{
+
+    .generos>a {
         width: 20%;
     }
-    .button{
-       --fs-size:1em
+
+    .button {
+        --fs-size: 1em
     }
 }
-.perfil{
+
+.perfil {
     background: none;
 }
-.perfil{
-   background-image: url(../img/fundo-perfil.jpg);
-   background-size: cover;
-   background-color: rgba(0, 0, 0, 0.8);
+
+.perfil {
+    background-image: url(../img/fundo-perfil.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
 }
-.logo-perfil{
+
+.logo-perfil {
     width: 5%;
 }
-.agnes{
+
+.agnes {
     height: 200px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    gap: 20px;  
+    gap: 20px;
     text-align: center;
     font-family: fantasy;
-    color: black;
 }
-.agnes1{
+
+.agnes1 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 
-    width:300px;
+    width: 300px;
     height: 200px;
 }
-.agnes1:hover{
+
+.agnes1:hover {
     transform: scale(1.1);
 }
-.perfis{
+
+.perfis {
     height: 400px;
 }
-.perfis > .primeiro{
+
+.perfis>.primeiro {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     margin: 10px;
     padding: 6px;
