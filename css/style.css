@@ -616,7 +616,15 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
     padding-top: 300px;
 }
+.banner-escuro2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.4);
 
+}
 
 
 .opcoes {
@@ -858,14 +866,30 @@ button:hover .star-6 {
     justify-content:center;
     align-items: center;
     gap: 20px;  
+    text-align: center;
+    font-family: fantasy;
+    color: black;
 }
 .agnes1{
     display: flex;
     justify-content:center;
     align-items: center;
+
     width:300px;
     height: 200px;
 }
 .agnes1:hover{
     transform: scale(1.1);
+}
+.perfis{
+    height: 400px;
+}
+.perfis > .primeiro{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 10px;
+    padding: 6px;
+    background-color: rgb(25, 91, 165);
+    font-family: fantasy;
 }
