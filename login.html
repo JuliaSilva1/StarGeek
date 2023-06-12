@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="login.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Edu+NSW+ACT+Foundation:wght@500&family=
@@ -17,11 +18,12 @@ Libre+Baskerville:wght@700&family=Passion+One:wght@700&family=Roboto:wght@300;70
 <body>
     <div class="principal">
         <h2>Login</h2>
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Senha">
+        <input type="email" placeholder="Email" id="email">
+        <input type="password" placeholder="Senha" id="senha">
         <div>
-            <a class="primeiro" href="perfil.html">Entrar</a>
-            <a class="primeiro" href="cadastro.html">Cadastrar</a>
+            <button class="primeiro" onclick="entrar()">Entrar</a></button>
+           <a href="cadastro.html" class="primeiro">Cadastrar</a>
+           
         </div>
     </div>
 

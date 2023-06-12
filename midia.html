@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
+    <script defer src="midia.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Edu+NSW+ACT+Foundation:wght@500&family=
@@ -16,13 +17,16 @@ Libre+Baskerville:wght@700&family=Passion+One:wght@700&family=Roboto:wght@300;70
 <body>
     <div class="principal">
         <h2>Cadastro da mídia</h2>
-        <input type="text" placeholder="Sugestões">
-        <input type="text" placeholder="Crítica">
+        <input type="text" placeholder="Sugestões" id="sugestoes">
+        <input type="text" placeholder="Crítica" id="critica">
+        <input type="text"  id="imagem" placeholder="link" onkeyup="carregarImg()">
+
+        <img class="foto" src="" id="img">
         <div class="botao">
-            <img src="good.svg" alt="">
-            <img src="bad.svg" alt="">
-            <a class="voltar" href="cadastro.html">Voltar</a>
-            <a class="primeiro" href="index.html">Cadastrar</a>
+            <img src="bad.svg" alt="" onclick="mudarImagem()" id="mudarImg">
+           
+             <a href="catalago.html" class="primeiro">Voltar</a>
+            <button class="primeiro" onclick="cadastrar()">Cadastrar</a></button>
         </div>
     </div>
 </body>

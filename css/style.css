@@ -16,7 +16,7 @@ body {
     background-color: rgba(8, 70, 124, 0.727);
     text-align: left;
     max-width: 500px;
-    height: 400px;
+    height: 450px;
     margin: 0 auto;
     box-shadow: 2px 2px 3px;
     padding: 5px;
@@ -33,6 +33,7 @@ body {
     margin: 0 auto;
     border-radius: 5px;
     margin-top: 5px;
+    margin: 3px;
 
 }
 
@@ -325,7 +326,7 @@ h3 {
     color: white;
     border-radius: 5px;
     font-family: fantasy;
-    margin: 5px;
+    margin: 3pxpx;
 }
 
 .posicao-botao {
@@ -854,6 +855,12 @@ button:hover .star-6 {
     .button {
         --fs-size: 1em
     }
+    .agnes{
+        flex-direction: column;
+    }
+    .cabecalho2{
+        flex-direction: column;
+    }
 }
 
 .perfil {
@@ -871,7 +878,6 @@ button:hover .star-6 {
 }
 
 .agnes {
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -905,4 +911,7 @@ button:hover .star-6 {
     padding: 6px;
     background-color: rgb(25, 91, 165);
     font-family: fantasy;
+}
+.foto{
+    width: 300px;
 }
